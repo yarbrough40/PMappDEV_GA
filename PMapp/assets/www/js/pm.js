@@ -1,32 +1,11 @@
-	//window.localStorage.setItem('QPname',1);
-	//window.localStorage.getItem('key');
-	//window.localStorage.removeItem('guessCount');	
-	
-	/* in use:
-	window.localStorage.setItem('theme','b');
-	window.localStorage.setItem('team', red riders);
-	window.localStorage.setItem('password', myPassword);
-	window.localStorage.setItem('teamColor','b');
-	window.localStorage.setItem('isAuthenticated',false);
-	window.localStorage.setItem('UserName');
-	window.localStorage.setItem('PlayerId');
-	window.localStorage.setItem("imageData",imageData);
-	window.localStorage.setItem('MainLogMessageResult',false); 
-	
-		/b = eval("("+ $("#txtConsole").val() + ")");
-		//b = eval("("+ "alert('dude')" + ")");
-	*/
-	//var baseURL = "http://localhost:60279/MidnightMadnessAsp/";
-	//var baseURL = "http://woodlandshalloween.com/MidnightMadness/";
-	//var baseURL = "http://woodlandshalloween.com/premorial/";
-	var baseURL = "http://libertyradioohio.com/";
+
+	var baseURL = "http://woodlandshalloween.com/premorial/";
+	//var baseURL = "http://libertyradioohio.com/";
 	
 	
 	function cb(response){	
 				//DO NOT DELETE - used by all Json calls 		
 	}
-	
-
 	
 	
 	function sendNewTeamMember(){
