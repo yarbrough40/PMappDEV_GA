@@ -1,4 +1,23 @@
-
+	//window.localStorage.setItem('QPname',1);
+	//window.localStorage.getItem('key');
+	//window.localStorage.removeItem('guessCount');	
+	
+	/* in use:
+	window.localStorage.setItem('theme','b');
+	window.localStorage.setItem('team', red riders);
+	window.localStorage.setItem('password', myPassword);
+	window.localStorage.setItem('teamColor','b');
+	window.localStorage.setItem('isAuthenticated',false);
+	window.localStorage.setItem('UserName');
+	window.localStorage.setItem('PlayerId');
+	window.localStorage.setItem("imageData",imageData);
+	window.localStorage.setItem('MainLogMessageResult',false); 
+	
+		/b = eval("("+ $("#txtConsole").val() + ")");
+		//b = eval("("+ "alert('dude')" + ")");
+	*/
+	//var baseURL = "http://localhost:60279/MidnightMadnessAsp/";
+	//var baseURL = "http://woodlandshalloween.com/MidnightMadness/";
 	var baseURL = "http://woodlandshalloween.com/premorial/";
 	//var baseURL = "http://libertyradioohio.com/";
 	
@@ -6,6 +25,8 @@
 	function cb(response){	
 				//DO NOT DELETE - used by all Json calls 		
 	}
+	
+
 	
 	
 	function sendNewTeamMember(){
@@ -372,7 +393,7 @@
 		code = getChallengeItem("CHALLENGE_ANSWER_CD");
 		txt = $("#txtCode").val();		
 			$("#labelErrorCode").attr("style","color: #C80000;");
-			if(code == txt || txt.toLowerCase() == 'seek'){
+			if(code.toLowerCase() == txt.toLowerCase() || txt.toLowerCase() == 'seek'){
 				gotoCorrect();
 				//$("#labelErrorCode").attr("style","color: green");
 				//response = "<b class='blink'>Correct!!!</b>";	
